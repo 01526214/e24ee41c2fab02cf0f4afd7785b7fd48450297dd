@@ -1,0 +1,440 @@
+2020-03-18 09:05:48.804  INFO 3760 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 3760 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 09:05:48.822  INFO 3760 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 09:05:50.089  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 09:05:50.114  INFO 3760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 09:05:50.115  INFO 3760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 09:05:50.208  INFO 3760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 09:05:50.208  INFO 3760 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2020-03-18 09:05:50.242  INFO 3760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 09:05:50.477  INFO 3760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 09:05:50.483  INFO 3760 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 09:05:50.654  INFO 3760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:05:50.800  INFO 3760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 09:05:50.803  INFO 3760 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.609 seconds (JVM running for 3.027)
+2020-03-18 09:06:02.512  INFO 3760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 09:06:02.513  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 09:06:02.530  INFO 3760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-03-18 09:06:09.883  INFO 3760 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 09:07:43.764  INFO 3760 --- [http-nio-8080-exec-8] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 09:07:55.040  INFO 3760 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:07:55.043  INFO 3760 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 09:07:55.048  INFO 3760 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 09:34:23.518  INFO 3835 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 3835 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 09:34:23.522  INFO 3835 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 09:34:24.646  INFO 3835 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 09:34:24.655  INFO 3835 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 09:34:24.655  INFO 3835 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 09:34:24.724  INFO 3835 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 09:34:24.724  INFO 3835 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1085 ms
+2020-03-18 09:34:24.766  INFO 3835 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 09:34:25.048  INFO 3835 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 09:34:25.054  INFO 3835 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 09:34:25.235  INFO 3835 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:34:25.381  INFO 3835 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 09:34:25.385  INFO 3835 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.768 seconds (JVM running for 3.202)
+2020-03-18 09:34:35.762  INFO 3835 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 09:34:35.763  INFO 3835 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 09:34:35.771  INFO 3835 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-18 09:34:43.182  INFO 3835 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 09:34:46.313  INFO 3835 --- [http-nio-8080-exec-4] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 09:34:50.651  INFO 3835 --- [http-nio-8080-exec-5] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 09:34:53.947  INFO 3835 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/4
+2020-03-18 09:39:45.741  INFO 3835 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:39:45.743  INFO 3835 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 09:39:45.751  INFO 3835 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 09:40:10.659  INFO 3859 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 3859 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 09:40:10.666  INFO 3859 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 09:40:12.023  INFO 3859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 09:40:12.033  INFO 3859 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 09:40:12.033  INFO 3859 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 09:40:12.105  INFO 3859 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 09:40:12.105  INFO 3859 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1299 ms
+2020-03-18 09:40:12.146  INFO 3859 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 09:40:12.378  INFO 3859 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 09:40:12.385  INFO 3859 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 09:40:12.559  INFO 3859 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:40:12.722  INFO 3859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 09:40:12.726  INFO 3859 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.623 seconds (JVM running for 3.147)
+2020-03-18 09:41:32.886  INFO 3859 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 09:41:32.890  INFO 3859 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 09:41:32.893  INFO 3859 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:03:55.719  INFO 4025 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4025 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:03:55.722  INFO 4025 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:03:56.936  INFO 4025 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:03:56.947  INFO 4025 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:03:56.947  INFO 4025 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:03:57.046  INFO 4025 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:03:57.047  INFO 4025 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1282 ms
+2020-03-18 11:03:57.089  INFO 4025 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:03:57.347  INFO 4025 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:03:57.353  INFO 4025 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:03:57.535  INFO 4025 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:03:57.737  INFO 4025 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:03:57.740  INFO 4025 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.773 seconds (JVM running for 3.332)
+2020-03-18 11:04:09.881  INFO 4025 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:04:09.883  INFO 4025 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:04:09.913  INFO 4025 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2020-03-18 11:04:14.933  INFO 4025 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:04:19.495  INFO 4025 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:04:45.580  INFO 4025 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:05:13.260  INFO 4025 --- [http-nio-8080-exec-8] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 11:05:18.316  INFO 4025 --- [http-nio-8080-exec-9] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 11:05:22.736  INFO 4025 --- [http-nio-8080-exec-10] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:05:38.991  INFO 4025 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:05:38.997  INFO 4025 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:05:39.011  INFO 4025 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:37:35.356  INFO 4113 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4113 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:37:35.359  INFO 4113 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:37:36.620  INFO 4113 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:37:36.632  INFO 4113 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:37:36.632  INFO 4113 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:37:36.704  INFO 4113 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:37:36.704  INFO 4113 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1304 ms
+2020-03-18 11:37:36.739  INFO 4113 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:37:36.999  INFO 4113 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:37:37.005  INFO 4113 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:37:37.210  INFO 4113 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:37:37.381  INFO 4113 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:37:37.385  INFO 4113 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.816 seconds (JVM running for 3.316)
+2020-03-18 11:37:50.698  INFO 4113 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:37:50.699  INFO 4113 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:37:50.707  INFO 4113 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-18 11:37:50.736  INFO 4113 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:38:34.037  INFO 4113 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:38:34.042  INFO 4113 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:38:34.051  INFO 4113 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:42:30.383  INFO 4125 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4125 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:42:30.456  INFO 4125 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:42:33.093  INFO 4125 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:42:33.115  INFO 4125 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:42:33.116  INFO 4125 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:42:33.244  INFO 4125 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:42:33.244  INFO 4125 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2442 ms
+2020-03-18 11:42:33.313  INFO 4125 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:42:33.556  INFO 4125 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:42:33.562  INFO 4125 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:42:33.739  INFO 4125 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:42:33.911  INFO 4125 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:42:33.916  INFO 4125 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 5.727 seconds (JVM running for 6.371)
+2020-03-18 11:42:49.530  INFO 4125 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:42:49.532  INFO 4125 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:42:49.543  INFO 4125 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-03-18 11:42:49.565  INFO 4125 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:42:58.920  INFO 4125 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:43:04.213  INFO 4125 --- [http-nio-8080-exec-5] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 11:43:08.669  INFO 4125 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/4
+2020-03-18 11:43:37.648  INFO 4125 --- [http-nio-8080-exec-8] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/0
+2020-03-18 11:43:41.430  INFO 4125 --- [http-nio-8080-exec-9] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:43:47.581  INFO 4125 --- [http-nio-8080-exec-10] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 11:43:50.382  INFO 4125 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 11:43:53.985  INFO 4125 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:44:19.635  INFO 4125 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:44:19.636  INFO 4125 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:44:19.642  INFO 4125 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:50:09.086  INFO 4137 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4137 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:50:09.088  INFO 4137 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:50:10.320  INFO 4137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:50:10.369  INFO 4137 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:50:10.370  INFO 4137 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:50:10.440  INFO 4137 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:50:10.440  INFO 4137 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1297 ms
+2020-03-18 11:50:10.482  INFO 4137 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:50:10.737  INFO 4137 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:50:10.749  INFO 4137 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:50:10.985  INFO 4137 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:50:11.132  INFO 4137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:50:11.136  INFO 4137 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.845 seconds (JVM running for 3.394)
+2020-03-18 11:50:15.645  INFO 4137 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:50:15.645  INFO 4137 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:50:15.653  INFO 4137 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-18 11:50:15.674  INFO 4137 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:50:18.448  INFO 4137 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:50:22.881  INFO 4137 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:50:26.307  INFO 4137 --- [http-nio-8080-exec-4] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 11:50:36.091  INFO 4137 --- [http-nio-8080-exec-8] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:50:43.219  INFO 4137 --- [http-nio-8080-exec-9] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:52:56.101  INFO 4137 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:52:56.102  INFO 4137 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:52:56.107  INFO 4137 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:53:03.487  INFO 4147 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4147 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:53:03.490  INFO 4147 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:53:04.483  INFO 4147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:53:04.492  INFO 4147 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:53:04.492  INFO 4147 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:53:04.558  INFO 4147 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:53:04.558  INFO 4147 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1005 ms
+2020-03-18 11:53:04.671  INFO 4147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:53:04.867  INFO 4147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:53:04.873  INFO 4147 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:53:05.029  INFO 4147 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:53:05.170  INFO 4147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:53:05.173  INFO 4147 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.355 seconds (JVM running for 2.882)
+2020-03-18 11:53:10.018  INFO 4147 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:53:10.019  INFO 4147 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:53:10.026  INFO 4147 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-18 11:53:10.049  INFO 4147 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:53:12.931  INFO 4147 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 11:53:16.598  INFO 4147 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:53:42.290  INFO 4147 --- [http-nio-8080-exec-5] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 11:53:46.654  INFO 4147 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:53:49.472  INFO 4147 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:53:49.473  INFO 4147 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:53:49.478  INFO 4147 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:55:36.495  INFO 4155 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4155 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:55:36.497  INFO 4155 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:55:37.544  INFO 4155 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:55:37.553  INFO 4155 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:55:37.553  INFO 4155 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:55:37.613  INFO 4155 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:55:37.614  INFO 4155 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1061 ms
+2020-03-18 11:55:37.727  INFO 4155 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:55:37.972  INFO 4155 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:55:37.977  INFO 4155 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:55:38.145  INFO 4155 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:55:38.331  INFO 4155 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:55:38.335  INFO 4155 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.572 seconds (JVM running for 3.139)
+2020-03-18 11:55:42.926  INFO 4155 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:55:42.926  INFO 4155 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:55:42.933  INFO 4155 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-18 11:55:42.956  INFO 4155 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 11:55:46.417  INFO 4155 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:58:38.074  INFO 4155 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:58:38.075  INFO 4155 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 11:58:38.092  INFO 4155 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 11:58:44.204  INFO 4178 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4178 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 11:58:44.206  INFO 4178 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 11:58:45.356  INFO 4178 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 11:58:45.366  INFO 4178 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 11:58:45.366  INFO 4178 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 11:58:45.424  INFO 4178 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 11:58:45.424  INFO 4178 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1177 ms
+2020-03-18 11:58:45.456  INFO 4178 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 11:58:45.708  INFO 4178 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 11:58:45.713  INFO 4178 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 11:58:45.884  INFO 4178 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 11:58:46.045  INFO 4178 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 11:58:46.056  INFO 4178 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.653 seconds (JVM running for 3.084)
+2020-03-18 11:58:49.725  INFO 4178 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 11:58:49.727  INFO 4178 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 11:58:49.737  INFO 4178 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-03-18 11:58:49.756  INFO 4178 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 11:59:28.874  INFO 4178 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:04:11.402  INFO 4178 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 12:06:20.548  INFO 4178 --- [http-nio-8080-exec-9] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:07:35.996  INFO 4178 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:07:36.000  INFO 4178 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:07:36.010  INFO 4178 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:07:43.600  INFO 4191 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4191 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:07:43.603  INFO 4191 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:07:44.860  INFO 4191 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:07:44.869  INFO 4191 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:07:44.870  INFO 4191 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:07:44.931  INFO 4191 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:07:44.931  INFO 4191 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1204 ms
+2020-03-18 12:07:44.964  INFO 4191 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:07:45.182  INFO 4191 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:07:45.188  INFO 4191 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:07:45.376  INFO 4191 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:07:45.543  INFO 4191 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:07:45.547  INFO 4191 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.747 seconds (JVM running for 3.28)
+2020-03-18 12:07:49.968  INFO 4191 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:07:49.969  INFO 4191 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:07:49.978  INFO 4191 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-18 12:07:49.998  INFO 4191 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:07:50.573  INFO 4191 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:08:00.354  INFO 4191 --- [http-nio-8080-exec-4] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:09:08.467  INFO 4191 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:09:08.468  INFO 4191 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:09:08.502  INFO 4191 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:09:13.696  INFO 4194 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4194 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:09:13.698  INFO 4194 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:09:15.062  INFO 4194 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:09:15.072  INFO 4194 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:09:15.072  INFO 4194 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:09:15.134  INFO 4194 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:09:15.134  INFO 4194 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1342 ms
+2020-03-18 12:09:15.167  INFO 4194 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:09:15.396  INFO 4194 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:09:15.401  INFO 4194 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:09:15.579  INFO 4194 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:09:15.740  INFO 4194 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:09:15.743  INFO 4194 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.548 seconds (JVM running for 3.015)
+2020-03-18 12:09:22.596  INFO 4194 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:09:22.597  INFO 4194 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:09:22.605  INFO 4194 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-18 12:09:22.623  INFO 4194 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:12:12.087  INFO 4194 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:12:12.093  INFO 4194 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:12:12.102  INFO 4194 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:12:19.647  INFO 4201 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4201 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:12:19.650  INFO 4201 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:12:21.077  INFO 4201 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:12:21.086  INFO 4201 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:12:21.087  INFO 4201 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:12:21.146  INFO 4201 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:12:21.147  INFO 4201 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
+2020-03-18 12:12:21.191  INFO 4201 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:12:21.429  INFO 4201 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:12:21.439  INFO 4201 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:12:21.618  INFO 4201 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:12:21.776  INFO 4201 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:12:21.780  INFO 4201 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.899 seconds (JVM running for 3.368)
+2020-03-18 12:12:25.322  INFO 4201 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:12:25.324  INFO 4201 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:12:25.333  INFO 4201 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-18 12:12:25.353  INFO 4201 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:14:36.063  INFO 4201 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:14:36.067  INFO 4201 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:14:36.071  INFO 4201 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:14:40.636  INFO 4204 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4204 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:14:40.638  INFO 4204 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:14:42.087  INFO 4204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:14:42.097  INFO 4204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:14:42.097  INFO 4204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:14:42.171  INFO 4204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:14:42.171  INFO 4204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1334 ms
+2020-03-18 12:14:42.205  INFO 4204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:14:42.430  INFO 4204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:14:42.435  INFO 4204 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:14:42.606  INFO 4204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:14:42.768  INFO 4204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:14:42.772  INFO 4204 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.648 seconds (JVM running for 3.098)
+2020-03-18 12:14:46.827  INFO 4204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:14:46.828  INFO 4204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:14:46.835  INFO 4204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-18 12:14:46.855  INFO 4204 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:19:44.043  INFO 4204 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:19:44.045  INFO 4204 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:19:44.054  INFO 4204 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:19:49.865  INFO 4211 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4211 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:19:49.867  INFO 4211 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:19:51.122  INFO 4211 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:19:51.142  INFO 4211 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:19:51.142  INFO 4211 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:19:51.207  INFO 4211 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:19:51.208  INFO 4211 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1292 ms
+2020-03-18 12:19:51.241  INFO 4211 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:19:51.458  INFO 4211 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:19:51.469  INFO 4211 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:19:51.677  INFO 4211 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:19:51.827  INFO 4211 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:19:51.831  INFO 4211 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.667 seconds (JVM running for 3.284)
+2020-03-18 12:19:55.548  INFO 4211 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:19:55.549  INFO 4211 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:19:55.557  INFO 4211 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-18 12:19:55.578  INFO 4211 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:20:46.757  INFO 4211 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:20:46.761  INFO 4211 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:20:46.770  INFO 4211 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:20:51.662  INFO 4216 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4216 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:20:51.665  INFO 4216 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:20:53.028  INFO 4216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:20:53.038  INFO 4216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:20:53.038  INFO 4216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:20:53.095  INFO 4216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:20:53.095  INFO 4216 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1373 ms
+2020-03-18 12:20:53.128  INFO 4216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:20:53.352  INFO 4216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:20:53.358  INFO 4216 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:20:53.526  INFO 4216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:20:53.675  INFO 4216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:20:53.678  INFO 4216 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.556 seconds (JVM running for 2.997)
+2020-03-18 12:20:57.695  INFO 4216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:20:57.697  INFO 4216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:20:57.706  INFO 4216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-18 12:20:57.726  INFO 4216 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:21:02.977  INFO 4216 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 12:21:27.389  INFO 4216 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:21:27.390  INFO 4216 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:21:27.396  INFO 4216 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:32:28.374  INFO 4246 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4246 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:32:28.376  INFO 4246 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:32:29.449  INFO 4246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:32:29.457  INFO 4246 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:32:29.458  INFO 4246 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:32:29.513  INFO 4246 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:32:29.513  INFO 4246 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1077 ms
+2020-03-18 12:32:29.544  INFO 4246 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:32:29.817  INFO 4246 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:32:29.822  INFO 4246 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:32:29.998  INFO 4246 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:32:30.166  INFO 4246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:32:30.169  INFO 4246 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.532 seconds (JVM running for 3.058)
+2020-03-18 12:32:34.556  INFO 4246 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:32:34.557  INFO 4246 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:32:34.567  INFO 4246 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-03-18 12:32:34.591  INFO 4246 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 12:32:40.226  INFO 4246 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:33:49.151  INFO 4246 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:33:49.152  INFO 4246 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:33:49.157  INFO 4246 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 12:33:55.068  INFO 4249 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4249 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 12:33:55.071  INFO 4249 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 12:33:56.390  INFO 4249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 12:33:56.403  INFO 4249 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 12:33:56.404  INFO 4249 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 12:33:56.463  INFO 4249 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 12:33:56.463  INFO 4249 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1263 ms
+2020-03-18 12:33:56.499  INFO 4249 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 12:33:56.733  INFO 4249 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 12:33:56.739  INFO 4249 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 12:33:56.927  INFO 4249 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:33:57.085  INFO 4249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 12:33:57.089  INFO 4249 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.472 seconds (JVM running for 3.026)
+2020-03-18 12:34:02.843  INFO 4249 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 12:34:02.844  INFO 4249 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 12:34:02.851  INFO 4249 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-18 12:34:02.872  INFO 4249 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:34:05.789  INFO 4249 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:34:12.151  INFO 4249 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 12:34:15.752  INFO 4249 --- [http-nio-8080-exec-5] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 12:34:19.023  INFO 4249 --- [http-nio-8080-exec-6] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 12:34:24.216  INFO 4249 --- [http-nio-8080-exec-7] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 12:34:31.380  INFO 4249 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 12:34:31.384  INFO 4249 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 12:34:31.391  INFO 4249 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 13:39:30.986  INFO 4371 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4371 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 13:39:30.992  INFO 4371 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 13:39:32.125  INFO 4371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 13:39:32.156  INFO 4371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 13:39:32.158  INFO 4371 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 13:39:32.249  INFO 4371 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 13:39:32.249  INFO 4371 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1156 ms
+2020-03-18 13:39:32.282  INFO 4371 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 13:39:32.521  INFO 4371 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 13:39:32.528  INFO 4371 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 13:39:32.707  INFO 4371 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 13:39:32.858  INFO 4371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 13:39:32.862  INFO 4371 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.771 seconds (JVM running for 3.314)
+2020-03-18 13:39:56.802  INFO 4371 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 13:39:56.804  INFO 4371 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 13:39:56.812  INFO 4371 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-18 13:39:56.835  INFO 4371 --- [http-nio-8080-exec-2] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 13:40:17.161  INFO 4371 --- [http-nio-8080-exec-3] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 13:40:55.062  INFO 4371 --- [http-nio-8080-exec-4] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 13:41:47.424  INFO 4371 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 13:41:47.427  INFO 4371 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 13:41:47.444  INFO 4371 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-18 14:47:29.642  INFO 4525 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Starting WendysRennpferdeApplication on Marios-Mac-mini.local with PID 4525 (/Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template/backend/target/classes started by mariolassmann in /Users/mariolassmann/Desktop/TU/Projektmanagement/SEPM2020/template)
+2020-03-18 14:47:29.645  INFO 4525 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : No active profile set, falling back to default profiles: default
+2020-03-18 14:47:30.641  INFO 4525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-18 14:47:30.651  INFO 4525 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-18 14:47:30.651  INFO 4525 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 14:47:30.716  INFO 4525 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-18 14:47:30.716  INFO 4525 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1034 ms
+2020-03-18 14:47:30.748  INFO 4525 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-18 14:47:31.067  INFO 4525 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-18 14:47:31.073  INFO 4525 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2020-03-18 14:47:31.249  INFO 4525 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 14:47:31.404  INFO 4525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 14:47:31.407  INFO 4525 --- [main] a.a.t.s.a.i.WendysRennpferdeApplication  : Started WendysRennpferdeApplication in 2.472 seconds (JVM running for 3.048)
+2020-03-18 14:47:48.819  INFO 4525 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 14:47:48.820  INFO 4525 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-18 14:47:48.828  INFO 4525 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-18 14:47:48.851  INFO 4525 --- [http-nio-8080-exec-1] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/
+2020-03-18 14:48:59.550  INFO 4525 --- [http-nio-8080-exec-4] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/1
+2020-03-18 14:49:06.249  INFO 4525 --- [http-nio-8080-exec-5] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/2
+2020-03-18 14:49:10.209  INFO 4525 --- [http-nio-8080-exec-7] a.a.t.s.a.i.endpoint.OwnerEndpoint       : GET /owners/3
+2020-03-18 14:49:20.686  INFO 4525 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 14:49:20.687  INFO 4525 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-18 14:49:20.711  INFO 4525 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
